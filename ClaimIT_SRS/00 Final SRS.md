@@ -22,73 +22,87 @@
 
 ## **Table of Contents**
 
-**Table of Contents [ii](#table-of-contents)**
+**Executive Summary**
 
-**Revision History [iii](#heading)**
+**1. Introduction**  
+&emsp;1.1 Purpose  
+&emsp;1.2 Intended Audience and Reading Suggestions
 
-**Executive Summary [1](#executive-summary)**
+**2. Project Description**  
+&emsp;2.1 Overview of the Current System  
+&emsp;2.2 Problem Statement  
+&emsp;2.3 Objectives  
+&emsp;2.4 Significance of the System  
+&emsp;2.5 Scope and Limitation  
+&emsp;2.6 Benchmark Systems  
+&emsp;2.7 Salient Features of the System  
+&emsp;2.8 Gantt Chart
 
-**1\.** **Introduction [1](#introduction)**  
-1.1 Purpose [1](#purpose)  
-1.2 Intended Audience and Reading Suggestions [1](#intended-audience-and-reading-suggestions)
+**3. Methodology**  
+&emsp;3.1 Requirements Gathering  
+&emsp;3.2 System Design  
+&emsp;3.3 Prototype Development  
+&emsp;3.4 User Acceptance Testing (UAT)  
+&emsp;3.5 Iterative Refinement  
+&emsp;3.6 Delivery and Handover
 
-**2\.** **Project Description [1](#project-description)**  
-2.1 Overview of the Current System [1](#overview-of-the-current-system)  
-2.2 Problem Statement [2](#problem-statement)  
-2.3 Objectives [2](#objectives)  
-2.4 Significance of the System [2](#significance-of-the-system)  
-2.5 Scope and Limitation [2](#scope-and-limitation)  
-2.6 Benchmark Systems [1](#heading=h.vwqafu79u5jk)  
-1.3 Salient Features of the System [1](#heading=h.vwqafu79u5jk)  
-2.6 Gantt Chart [2](#benchmark-systems)
+**4. Requirements Definition**  
+&emsp;4.1 Requirements Traceability Matrix  
+&emsp;4.2 Activity Diagram
 
-**3\.** **Methodology [2](#methodology)**  
-3.1 Requirements [2](#requirements)  
-3.2 Design [3](#design)  
-3.3 Build prototype [3](#heading=h.gjn26wscgrbs)  
-3.4 User evaluation [3](#heading=h.yb4cptb85xs7)  
-3.5 Refining prototype [3](#heading=h.yb4cptb85xs7)  
-3.6 Implement and Maintenance [3](#implementation-and-maintenance)
+**5. Analysis and Design**  
+&emsp;5.1 Use Case Diagram  
+&emsp;5.2 Use Case Description  
+&emsp;5.3 Sequence Diagram  
+&emsp;5.4 Collaboration Diagram
 
-**4\.** **Requirements Definition [3](#requirements-definition)**  
-4.1 Requirements Traceability Matrix [3](#requirements-traceability-matrix)  
-4.2 Proposed Activity Diagram [3](#activity-diagram)
+**6. Data Models**  
+&emsp;6.1 Entity-Relationship Diagram  
+&emsp;6.2 Class Diagram  
+&emsp;6.3 Context Diagram  
+&emsp;6.4 Component Diagram  
+&emsp;6.5 Package Diagram
 
-**5\.** **Analysis and Design [4](#analysis-and-design)**  
-5.1 Use Case Diagram [4](#use-case-diagram)  
-5.2 Use Case Description [4](#use-case-description)  
-5.3 Sequence Diagram [6](#sequence-diagram)  
-5.4 Collaboration Diagram [6](#collaboration-diagram)
+**7. The System**  
+&emsp;7.1 System Overview  
+&emsp;&emsp;7.1.1 System Features  
+&emsp;&emsp;7.1.2 System Functions
 
-**6\.** **Data Models [7](#data-models)**  
-6.1 Entity-Relationship Diagram [7](#entity-relationship-diagram)  
-6.2 Class Diagram [7](#class-diagram)  
-6.3 Context Diagram [7](#context-diagram)  
-6.4 Component Diagram [7](#component-diagram)  
-6.5 Package Diagram [8](#package-diagram)
+**8. Non-Functional Requirements**  
+&emsp;8.1 Performance Requirements  
+&emsp;8.2 Security Requirements  
+&emsp;8.3 Reliability and Availability Requirements  
+&emsp;8.4 Usability Requirements  
+&emsp;8.5 Software Quality Attributes
 
-**7\.** **The System [8](#the-system)**  
-7.1 System Overview [8](#system-overview)
+**9. Results and Discussion**  
+&emsp;9.1 User Acceptance Testing (UAT) Results  
+&emsp;9.2 Performance Benchmarking  
+&emsp;9.3 User Feedback Summary  
+&emsp;9.4 Objective Achievement Analysis
 
-**8\.** **Other Nonfunctional Requirements [9](#other-nonfunctional-requirements)**  
-8.1 Performance Requirements [9](#performance-requirements)  
-8.2 Safety Requirements [9](#safety-requirements)  
-8.3 Security Requirements [9](#security-requirements)  
-8.4 Software Quality Attributes [9](#software-quality-attributes)
+**10. Summary and Conclusion**  
+&emsp;10.1 Project Summary  
+&emsp;10.2 Achievement of Objectives  
+&emsp;10.3 Lessons Learned  
+&emsp;10.4 Conclusion
 
-**9\.** **Results and Discussion [10](#results-and-discussion)**
+**11. Recommendations**  
+&emsp;11.1 Production Deployment Recommendations  
+&emsp;11.2 Feature Enhancements  
+&emsp;11.3 Maintenance and Support
 
-**10\.** **Summary and Conclusion [10](#summary-and-conclusion)**
+**Appendix A: Working Bibliography**
 
-**11\.** **Recommendations [10](#recommendations)**
+**Appendix B: Interview Results and Documentation**  
+&emsp;B.1 Interview with ICTC  
+&emsp;B.2 Interview with SID
 
-**Appendix A: Working Bibliography [10](#the-system)**
-
-**Appendix B: Interview Results and Documentation [10](#appendix-b:-interview-results-and-documentation)**
-
-**Appendix C: Work Breakdown Structure [10](#the-system)**
+**Appendix C: Work Breakdown Structure (WBS)**
 
 **Appendix D: Glossary**
+
+---
 
 **Revision History**
 
@@ -109,9 +123,9 @@ Following ICTC's technical guidance, ClaimIT is architected as a **responsive we
 
 The primary project objectives are to: (1) document comprehensive system requirements validated by key stakeholders, (2) develop a functional prototype demonstrating core features, (3) design workflows capable of increasing the item return rate from 20-30% to over 60%, and (4) establish a foundation for future full-scale implementation. This SRS provides detailed specifications for requirements, architecture, data models, and user workflows that will guide prototype development and serve as a blueprint for production deployment.
 
-1. # **Introduction**
+# **1. Introduction** {#introduction}
 
-   1. ## **Purpose**
+## **1.1 Purpose** {#purpose}
 
 The purpose of this Software Requirements Specification (SRS) document is to comprehensively define the functional and non-functional requirements for **ClaimIT**, a Progressive Web Application (PWA) for lost and found management, developed by third-year BSIT students as part of the **ISY108 Requirements Engineering course** at MSU-IIT.
 
@@ -143,7 +157,7 @@ Version 1.0 of ClaimIT focuses on implementing core functionalities necessary fo
 
 ClaimIT replaces the existing manual, paper-based process with a centralized, accessible digital platform that enhances efficiency, transparency, and accountability while reducing administrative burden on security personnel.
 
-1. ## **Intended Audience and Reading Suggestions**
+## **1.2 Intended Audience and Reading Suggestions** {#intended-audience-and-reading-suggestions}
 
 This document has been prepared for a diverse group of stakeholders, each with specific interests and informational needs:
 
@@ -176,13 +190,13 @@ This document has been prepared for a diverse group of stakeholders, each with s
 - For operational overview: Sections 1 → 2 → 7 → 4
 - For policy compliance review: Sections 2 → 8 → Appendix B
 
-1. # **Project Description**
+# **2. Project Description** {#project-description}
 
 ClaimIT is a Progressive Web Application (PWA) meticulously designed to modernize and streamline lost and found management for the MSU-IIT campus community of over 12,000 students, faculty, and staff. The system establishes a centralized, accessible digital platform that facilitates seamless reporting, searching, and recovery of lost personal items while significantly reducing administrative burden on the Security Intelligence Division (SID).
 
 Following technical recommendations from the Information and Communication Technology Center (ICTC), ClaimIT is architected as a responsive web application rather than a native mobile app. This architectural decision ensures optimal integration with university infrastructure, eliminates app store deployment complexities, and provides immediate accessibility through standard web browsers on any device without requiring installation. The system prioritizes user convenience, operational transparency, and data security while maintaining full compatibility with existing campus authentication systems.
 
-1. ## **Overview of the Current System**
+## **2.1 Overview of the Current System** {#overview-of-the-current-system}
 
 Based on structured interviews with SID personnel conducted in November 2025, the current lost and found system at MSU-IIT operates as an entirely manual, paper-based process managed exclusively by the Security Intelligence Division. The operational workflow is as follows:
 
@@ -210,7 +224,7 @@ Individuals seeking lost items must physically visit the SID office during opera
 
 - **Awareness Gap:** SID personnel noted that many students remain unaware of the lost and found service location and procedures, contributing to low claim rates and unnecessary item disposal.
 
-  1.  ## **Problem Statement**
+## **2.2 Problem Statement** {#problem-statement}
 
 The manual lost and found system at MSU-IIT represents a critical operational failure that negatively impacts all stakeholders. Interview data reveals systemic problems across multiple dimensions:
 
@@ -232,13 +246,13 @@ The cumulative effect is a system that simultaneously fails users seeking to rec
 
 There exists an urgent and documented need for a digital solution that provides 24/7 accessibility, photo-based verification, automated notifications, fraud prevention capabilities, and analytics-driven operational improvement while drastically reducing administrative burden on security personnel.
 
-1. ## **Objectives**
+## **2.3 Objectives** {#objectives}
 
-   1. ### **General Objective**
+### **2.3.1 General Objective**
 
 To design, document, and develop a high-fidelity, functional prototype of a centralized, mobile-first digital platform that effectively demonstrates a modernized lost and found process for MSU-IIT.
 
-2. ### **Specific Objective**
+### **2.3.2 Specific Objectives**
 
 - To produce a comprehensive SRS document (this document) that serves as a blueprint for a potential full-scale implementation.
 - To develop a functional prototype that demonstrates the core functionalities of item reporting (with photos), searching, and a simulated claims management workflow.
@@ -251,7 +265,7 @@ To design, document, and develop a high-fidelity, functional prototype of a cent
 2. To design a scalable system architecture capable of improving the item return success rate from 35% to an expected target of over 60% when fully deployed.
 3. To evaluate the prototype’s usability, functionality, and performance through user testing and stakeholder feedback, ensuring alignment with institutional needs and overall system effectiveness.
 
-   1. ## **Significance of the System**
+## **2.4 Significance of the System** {#significance-of-the-system}
 
 ClaimIT addresses documented, stakeholder-validated problems with measurable benefits across all user groups:
 
@@ -286,7 +300,7 @@ ClaimIT addresses documented, stakeholder-validated problems with measurable ben
 - **Academic Contribution:** Comprehensive SRS documentation based on structured stakeholder interviews provides educational value for future Requirements Engineering courses.
 - **Student Portfolio Value:** Team members gain demonstrable experience in full-cycle software development, stakeholder engagement, and production-grade system design.
 
-  1. ## **Scope and Limitation**
+## **2.5 Scope and Limitation** {#scope-and-limitation}
 
 **Scope:**
 
@@ -346,7 +360,7 @@ ClaimIT addresses documented, stakeholder-validated problems with measurable ben
 
 - **ICTC Deployment Responsibility:** Final production deployment, server configuration, database setup, and integration with production Active Directory environment are ICTC responsibilities following successful prototype validation.
 
-  1. ## **Benchmark Systems**
+## **2.6 Benchmark Systems** {#benchmark-systems}
 
 The following systems were analyzed to identify best practices, understand existing solutions in the lost and found domain, and determine areas where ClaimIT can provide distinct advantages tailored to the MSU-IIT campus environment:
 
@@ -372,7 +386,7 @@ The following systems were analyzed to identify best practices, understand exist
 
 11. [**MSU-Sulu Lost and Found Management System:**](https://www.studocu.com/ph/document/mindanao-state-university-sulu/bs-information-technology/capstone-project-1-lost-and-found-monitoring-and-management-system-and-application/120113218) A campus-wide digital lost and found management tool developed for Mindanao State University-Sulu, providing reporting, tracking, and reclaiming functionalities. Its strengths include localized deployment for campus needs, digital item listing, and user interaction for claims. It benchmarks practical implementation in a university context within the Philippines. ClaimIT advances this concept with a fully integrated Progressive Web App, enhanced search and filtering, automated notifications, claims verification workflows, QR code inventory control, and centralized administrative dashboards aligning with modern university IT policies.
 
-        1. ## **Salient Features of the System**
+## **2.7 Salient Features of the System** {#salient-features}
 
     Based on stakeholder interviews with SID and ICTC, ClaimIT incorporates the following key features validated against documented operational requirements:
 
@@ -421,7 +435,7 @@ The following systems were analyzed to identify best practices, understand exist
 
 - **Sensitive Data Encryption:** Per ICTC security requirements, encryption of student ID numbers, passwords, authentication tokens, and other sensitive personal information at rest and in transit, with appropriate access controls ensuring SID cannot view unnecessary personal details.
 
-  1. ## **Gantt Chart**
+## **2.8 Gantt Chart** {#gantt-chart}
 
 The ClaimIT project follows a structured timeline aligned with the prototyping methodology, with major phases distributed across the academic term to ensure adequate time for stakeholder feedback and iterative refinement.
 
@@ -458,7 +472,7 @@ The ClaimIT project follows a structured timeline aligned with the prototyping m
 - Weekly progress check-ins with faculty advisor
 - Bi-weekly stakeholder status updates
 
-1. # **Methodology**
+# **3. Methodology** {#methodology}
 
 This project adopts the **Prototyping Methodology**, specifically the **Evolutionary Prototyping** approach. This methodology is optimally suited for ClaimIT due to several critical factors identified during requirements gathering:
 
@@ -472,7 +486,7 @@ This project adopts the **Prototyping Methodology**, specifically the **Evolutio
 
 4. **Stakeholder Engagement Requirements:** Both SID and ICTC expressed desire for hands-on evaluation before committing to full production deployment. The prototyping methodology inherently supports this through tangible, demonstrable increments at each phase.
 
-### 3.1 Requirements Gathering
+## **3.1 Requirements Gathering** {#requirements}
 
 **Status: COMPLETED (November 2025)**
 
@@ -500,7 +514,7 @@ The requirements phase employed structured stakeholder interviews to elicit vali
 - Privacy protection (in-app messaging, controlled data access)
 - Dual coordination modes (centralized and peer-to-peer options)
 
-### 3.2 System Design
+## **3.2 System Design** {#design}
 
 The design phase translates validated requirements into comprehensive architectural specifications and detailed interface models:
 
@@ -533,7 +547,7 @@ The design phase translates validated requirements into comprehensive architectu
 - API security design (authentication tokens, rate limiting, input validation)
 - Audit logging specifications for compliance and accountability
 
-### 3.3 Prototype Development
+## **3.3 Prototype Development** {#build-prototype}
 
 **Technology Stack:**
 
@@ -606,7 +620,7 @@ _Phase 5 - Security & Polish:_
 - Browser compatibility testing
 - Accessibility (WCAG) compliance review
 
-### 3.4 User Acceptance Testing (UAT)
+## **3.4 User Acceptance Testing (UAT)** {#user-evaluation}
 
 **Testing Methodology:**
 
@@ -661,7 +675,7 @@ _Success Criteria:_
 - No critical severity issues preventing core functionality
 - Positive feedback from at least 75% of participants
 
-### 3.5 Iterative Refinement
+## **3.5 Iterative Refinement** {#refining-prototype}
 
 Following UAT, the prototype undergoes structured refinement cycles:
 
@@ -685,7 +699,7 @@ Following UAT, the prototype undergoes structured refinement cycles:
 - Fix implementation → Internal testing → Stakeholder review → Approval gate
 - Repeat until all P0 and P1 issues resolved and stakeholder satisfaction achieved
 
-### 3.6 Delivery and Handover
+## **3.6 Delivery and Handover** {#implementation-and-maintenance}
 
 **Project Culmination Activities:**
 
@@ -748,7 +762,7 @@ _Handover Process:_
 - ICTC confirmation of technical feasibility for production deployment
 - Faculty advisor approval for academic project completion
 
-1. # **Requirements Definition**
+# **4. Requirements Definition** {#requirements-definition}
 
 ### Introduction
 
@@ -770,7 +784,7 @@ All requirements are prioritized using the MoSCoW method:
 - **Could Have:** Desirable enhancements if time/resources permit
 - **Won't Have (this version):** Explicitly out of scope for v1.0
 
-### 4.1 Requirements Traceability Matrix {#requirements-traceability-matrix}
+## **4.1 Requirements Traceability Matrix** {#requirements-traceability-matrix}
 
 The Requirements Traceability Matrix (RTM) establishes bidirectional traceability between stakeholder needs, system requirements, design elements, implementation components, and test cases. This ensures no requirement is overlooked and all implemented features can be traced back to validated stakeholder requests.
 
@@ -838,7 +852,7 @@ The Requirements Traceability Matrix (RTM) establishes bidirectional traceabilit
 
 - Approved: 40 (100%)
 
-### 4.2 Activity Diagram
+## **4.2 Activity Diagram** {#activity-diagram}
 
 The Activity Diagram illustrates the complete workflow for the most critical use case: a user reporting a lost item, searching for matches, submitting a claim when a match is found, and the subsequent SID verification and approval process.
 
@@ -889,194 +903,934 @@ _\<Placeholder for Activity Diagram - To be created using UML diagramming tool\>
 
 2. Example of a figure label. (_figure label_)
 
-3. # **Analysis and Design**
+# **5. Analysis and Design** {#analysis-and-design}
+
+This section presents the detailed analysis and design artifacts for ClaimIT, including use case diagrams, use case descriptions, sequence diagrams, and collaboration diagrams. These diagrams follow UML standards and provide a comprehensive view of the system's behavior and structure.
 
-_\<Introduction here.\>_
+## **5.1 Use Case Diagram** {#use-case-diagram}
+
+The use case diagram below illustrates the primary interactions between users (actors) and the ClaimIT system. It identifies the main functional requirements from an external perspective.
+
+_\[Placeholder for Use Case Diagram Image\]_
+
+**Actors identified in the ClaimIT system:**
+
+| Actor                  | Description                                                                                                         |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------ |
+| **Student/Staff User** | University community members who can report lost items, search for found items, and claim items that belong to them |
+| **Admin**              | Campus security or lost and found personnel who manage found items, verify claims, and maintain the system          |
+| **System**             | The ClaimIT application itself, which sends notifications, manages data, and automates processes                    |
+
+**Use Cases by Actor:**
+
+**Student/Staff User:**
+
+- Register/Login via University SSO
+- Report Lost Item
+- Search Found Items
+- Submit Claim for Item
+- View Claim Status
+- Receive Notifications
+- Update Profile/Preferences
+
+**Admin:**
+
+- Login to Admin Dashboard
+- Add Found Item
+- Process Claims
+- Verify Ownership
+- Approve/Deny Claims
+- Generate Reports
+- Manage User Accounts
+- Configure System Settings
+
+**System (Automated):**
+
+- Send Email Notifications
+- Send Push Notifications
+- Match Lost Reports with Found Items
+- Archive Old Items
+- Generate Activity Logs
+
+## **5.2 Use Case Description** {#use-case-description}
+
+The following use case descriptions detail the primary interactions between users and the ClaimIT system. Each use case follows a standardized format.
+
+### Use Case 1: Report Lost Item (UC-1.1)
+
+|           Use Case ID: | UC-1.1                                                                                                                                                                                   |
+| ---------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     **Use Case Name:** | Report Lost Item                                                                                                                                                                         |
+|            **Actors:** | **Primary:** Student/Staff User<br>**Secondary:** System (for notifications)                                                                                                             |
+|       **Description:** | Allows a university member to report an item they have lost on campus                                                                                                                    |
+|           **Trigger:** | User selects "Report Lost Item" from the main menu                                                                                                                                       |
+|     **Preconditions:** | 1. User is authenticated via University SSO<br>2. User has an active university email                                                                                                    |
+|       **Normal Flow:** | 1. User selects "Report Lost Item"<br>2. System displays form<br>3. User enters item details<br>4. User submits report<br>5. System validates and saves<br>6. System confirms submission |
+| **Alternative Flows:** | User cancels → returns to dashboard                                                                                                                                                      |
+|        **Exceptions:** | Validation error → displays message                                                                                                                                                      |
+|    **Postconditions:** | Lost item report stored, user notified                                                                                                                                                   |
+
+### Use Case 2: Submit Claim (UC-3.1)
+
+|           Use Case ID: | UC-3.1                                                                                        |
+| ---------------------: | :-------------------------------------------------------------------------------------------- |
+|     **Use Case Name:** | Submit Claim for Found Item                                                                   |
+|            **Actors:** | **Primary:** Student/Staff User<br>**Secondary:** Admin                                       |
+|       **Description:** | Allows user to claim a found item                                                             |
+|           **Trigger:** | User clicks "Claim This Item"                                                                 |
+|     **Preconditions:** | User authenticated, item available                                                            |
+|       **Normal Flow:** | 1. User views item<br>2. Clicks claim<br>3. Provides proof<br>4. Submits<br>5. Admin notified |
+| **Alternative Flows:** | User cancels claim                                                                            |
+|        **Exceptions:** | Already claimed → error message                                                               |
+|    **Postconditions:** | Claim pending review                                                                          |
+
+### Use Case 3: Process Claim (UC-5.2)
+
+|           Use Case ID: | UC-5.2                                                                                |
+| ---------------------: | :------------------------------------------------------------------------------------ |
+|     **Use Case Name:** | Process and Verify Claim                                                              |
+|            **Actors:** | **Primary:** Admin<br>**Secondary:** System                                           |
+|       **Description:** | Admin reviews and processes claims                                                    |
+|           **Trigger:** | Admin selects pending claim                                                           |
+|     **Preconditions:** | Admin authenticated, claim pending                                                    |
+|       **Normal Flow:** | 1. Admin reviews claim<br>2. Verifies proof<br>3. Approves/denies<br>4. User notified |
+| **Alternative Flows:** | Request more info from claimant                                                       |
+|        **Exceptions:** | Item no longer exists                                                                 |
+|    **Postconditions:** | Claim resolved, item status updated                                                   |
+
+## **5.3 Sequence Diagram** {#sequence-diagram}
+
+Sequence diagrams illustrate the time-ordered interactions between objects/components in the ClaimIT system. They show how different parts of the system communicate to accomplish specific use cases.
+
+### Sequence Diagram 1: User Authentication via SAML SSO
+
+_\[Placeholder for Sequence Diagram Image\]_
+
+```
+User            Browser         ClaimIT App      Firebase Auth    University IDP
+  |                |                 |                 |                 |
+  |----(1) Access ClaimIT----------->|                 |                 |
+  |                |<----(2) Redirect to Login---------|                 |
+  |                |-----(3) Initiate SAML Auth------->|                 |
+  |                |                 |                 |---(4) SAML Req->|
+  |                |<-------------------(5) University Login Page--------|
+  |-(6) Enter Credentials----------->|                 |                 |
+  |                |                 |                 |<-(7) Validate-->|
+  |                |<-------------------(8) SAML Response with Claims----|
+  |                |                 |<---(9) Parse SAML Response--------|
+  |                |                 |----(10) Create/Update User------->|
+  |                |                 |<---(11) User Token----------------|
+  |<----------------(12) Authenticated, Show Dashboard-|                 |
+```
+
+**Description:**
+This sequence shows the SAML-based Single Sign-On (SSO) authentication flow where users log in using their university credentials.
+
+---
+
+### Sequence Diagram 2: Claim Submission and Processing
+
+_\[Placeholder for Sequence Diagram Image\]_
+
+```
+User           ClaimIT UI       ClaimController      Firestore DB      Admin
+  |                |                  |                   |              |
+  |-(1) View Item->|                  |                   |              |
+  |                |-(2) getItemDetails----------------->|              |
+  |                |<-(3) Item Data-----------------------|              |
+  |<-(4) Display---|                  |                   |              |
+  |-(5) Click Claim|                  |                   |              |
+  |                |-(6) showClaimForm|                   |              |
+  |<-(7) Claim Form|                  |                   |              |
+  |-(8) Submit---->|                  |                   |              |
+  |                |-(9) validateClaim>                   |              |
+  |                |                  |-(10) saveClaim--->|              |
+  |                |                  |<-(11) claimId-----|              |
+  |                |                  |-(12) notifyAdmin--------------->|
+  |<-(13) Confirmation----------------|                   |              |
+```
+
+**Description:**
+This diagram shows the complete flow when a user submits a claim for a found item.
+
+## **5.4 Collaboration Diagram** {#collaboration-diagram}
+
+Collaboration diagrams (also called Communication diagrams) show object interactions similar to sequence diagrams but emphasize the structural organization and message numbering rather than time sequence.
+
+### Collaboration Diagram 1: Report Lost Item
+
+_\[Placeholder for Collaboration Diagram Image\]_
+
+**Objects and their relationships:**
+
+```
+:User
+  |
+  | 1: enterItemDetails()
+  | 2: uploadPhotos()
+  | 9: displaySuccess()
+  |
+:ItemForm (UI Component)
+  |
+  | 3: validateInput()
+  | 4: submitItem(data)
+  |
+:ItemController
+  |
+  | 5: createItem()
+  |  |
+  |  | 5.1: save(item)
+  |  |
+:FirestoreDB
+  |
+  | 6: generateQRCode(itemId)
+  |
+:QRCodeService
+  |
+  | 7: sendNotification(user)
+  |
+:NotificationService
+  |
+  | 8: logAction(user, item)
+  |
+:AuditLogger
+```
+
+**Message Flow:**
+1: User enters item details into form
+2: User uploads photos (validates format/size client-side)
+3: ItemForm validates all required fields filled
+4: ItemForm submits validated data to ItemController
+5: ItemController creates item object
+5.1: ItemController calls FirestoreDB to save item
+6: ItemController calls QRCodeService to generate unique QR code
+7: ItemController calls NotificationService to send confirmation to user
+8: ItemController calls AuditLogger to record creation action
+9: ItemForm displays success message to User
+
+**Key Relationships:**
+
+- **User ↔ ItemForm:** Direct interaction (user input)
+- **ItemForm → ItemController:** Unidirectional (form submits to controller)
+- **ItemController ↔ FirestoreDB:** Bidirectional (CRUD operations)
+- **ItemController → QRCodeService:** Unidirectional (fire-and-forget)
+- **ItemController → NotificationService:** Unidirectional (async call)
+- **ItemController → AuditLogger:** Unidirectional (logging)
+
+---
+
+### Collaboration Diagram 2: Admin Approves Claim
+
+_\[Placeholder for Collaboration Diagram Image\]_
+
+**Objects:**
+:SIDAdmin, :AdminDashboard, :ClaimController, :FirestoreDB, :NotificationService, :AuditLogger, :Student
+
+**Message Flow:**
+1: SIDAdmin → AdminDashboard: selectClaim(claimId)
+2: AdminDashboard → ClaimController: getClaimDetails(claimId)
+2.1: ClaimController → FirestoreDB: fetchClaim(claimId)
+2.2: ClaimController → FirestoreDB: fetchRelatedItem(itemId)
+2.3: ClaimController → FirestoreDB: fetchClaimantHistory(userId)
+3: AdminDashboard ← ClaimController: return(claimPackage)
+4: AdminDashboard → SIDAdmin: display(claimPackage)
+5: SIDAdmin → AdminDashboard: clickApprove(notes)
+6: AdminDashboard → ClaimController: approveClaim(claimId, adminId, notes)
+6.1: ClaimController → FirestoreDB: updateClaimStatus("Approved")
+6.2: ClaimController → FirestoreDB: updateItemStatus("Claimed")
+6.3: ClaimController → AuditLogger: logApproval(claimId, adminId)
+6.4: ClaimController → NotificationService: notifyClaimant(userId, "Approved")
+7: NotificationService → Student: pushNotification("Claim Approved")
+8: AdminDashboard ← ClaimController: return(success)
+9: AdminDashboard → SIDAdmin: displayConfirmation()
+
+---
+
+_[Additional collaboration diagrams would show: Search Flow, Messaging Interaction, Peer-to-Peer Coordination]_
+
+---
+
+**End of Section 5**
+
+_This section has provided comprehensive behavioral and structural models of the ClaimIT system. The next section (Section 6) will focus on data models including Entity-Relationship Diagrams and Data Dictionary that define the system's data architecture._
+
+# **6. Data Models** {#data-models}
+
+This section presents the data architecture of ClaimIT through Entity-Relationship Diagrams (ERD), Class Diagrams, and supporting architectural views. These models define how data is structured, stored, and related within the system.
+
+## **6.1 Entity-Relationship Diagram** {#entity-relationship-diagram}
+
+The Entity Relationship Diagram (ERD) visualizes the logical structure of the ClaimIT database, illustrating how system entities such as Users, Items, Claims, and Messages interact.
+
+### ERD Description
+
+- **User**: The central entity. A user can report multiple **Items** (as lost or found), send/receive **Messages**, and make **Claims**.
+- **Item**: Represents a lost or found object. It belongs to a reporter (User) and can be associated with multiple **Claims** (though only one can be successful) and **Messages**.
+- **Claim**: Represents a request for ownership. It links a specific **User** (Claimant) to a specific **Item**.
+- **Message**: Facilitates communication between two **Users** regarding a specific **Item**.
+- **Notification**: System-generated alerts linked to a **User**.
+- **TurnoverLog**: Records the transfer of high-value items from a Finder to the **SID Admin**.
+
+_\[Placeholder for ERD Image\]_
+
+### Visual Representation (Mermaid Syntax)
+
+```mermaid
+erDiagram
+    USER ||--o{ ITEM : reports
+    USER ||--o{ CLAIM : submits
+    USER ||--o{ MESSAGE : sends
+    USER ||--o{ MESSAGE : receives
+    USER ||--o{ NOTIFICATION : receives
+    USER ||--o{ TURNOVER_LOG : processes_as_officer
+
+    ITEM ||--o{ CLAIM : has
+    ITEM ||--o{ MESSAGE : subject_of
+    ITEM ||--o| TURNOVER_LOG : recorded_in
+
+    USER {
+        string user_id PK
+        string email
+        string full_name
+        string role
+        string department
+        int reputation_score
+        datetime created_at
+    }
+
+    ITEM {
+        string item_id PK
+        string reporter_id FK
+        string type
+        string category
+        string status
+        string description
+        string location_found
+        string image_url
+        boolean is_high_value
+        datetime date_reported
+    }
+
+    CLAIM {
+        string claim_id PK
+        string item_id FK
+        string claimant_id FK
+        string status
+        string proof_description
+        string proof_image_url
+        datetime date_filed
+    }
+
+    MESSAGE {
+        string message_id PK
+        string item_id FK
+        string sender_id FK
+        string receiver_id FK
+        string content
+        datetime timestamp
+    }
+
+    TURNOVER_LOG {
+        string log_id PK
+        string item_id FK
+        string officer_id FK
+        datetime date_received
+        datetime date_released
+        string remarks
+    }
+```
+
+### Data Dictionary
+
+The following tables define the specific attributes, data types, and constraints for each entity in the system.
+
+#### Table 1: USERS
+
+Stores profile information for all system actors (Students, Faculty, Staff, SID Officers).
+
+| Field Name         | Data Type | Length | Constraint       | Description                                     |
+| :----------------- | :-------- | :----- | :--------------- | :---------------------------------------------- |
+| `user_id`          | VARCHAR   | 36     | PK, Not Null     | Unique identifier (UUID) from Auth System.      |
+| `email`            | VARCHAR   | 100    | Unique, Not Null | Institutional email address (@g.msuiit.edu.ph). |
+| `full_name`        | VARCHAR   | 100    | Not Null         | User's full legal name.                         |
+| `role`             | ENUM      | -      | Not Null         | 'Student', 'Faculty', 'Staff', 'SID_Admin'.     |
+| `department`       | VARCHAR   | 50     | Nullable         | College or office affiliation.                  |
+| `reputation_score` | INT       | -      | Default 0        | Gamification score based on successful returns. |
+| `created_at`       | DATETIME  | -      | Not Null         | Timestamp of account creation.                  |
+
+#### Table 2: ITEMS
+
+Stores details of all reported lost and found items.
+
+| Field Name       | Data Type | Length | Constraint           | Description                                                         |
+| :--------------- | :-------- | :----- | :------------------- | :------------------------------------------------------------------ |
+| `item_id`        | VARCHAR   | 36     | PK, Not Null         | Unique identifier for the item report.                              |
+| `reporter_id`    | VARCHAR   | 36     | FK (Users), Not Null | ID of the user who reported the item.                               |
+| `type`           | ENUM      | -      | Not Null             | 'Lost' or 'Found'.                                                  |
+| `category`       | VARCHAR   | 50     | Not Null             | e.g., Electronics, ID, Clothing, Accessories.                       |
+| `status`         | ENUM      | -      | Not Null             | 'Open', 'Pending_Claim', 'Returned', 'Surrendered_SID', 'Archived'. |
+| `description`    | TEXT      | -      | Not Null             | Detailed description of the item.                                   |
+| `location_found` | VARCHAR   | 255    | Nullable             | Text description or coordinates of location.                        |
+| `image_url`      | VARCHAR   | 255    | Nullable             | Path to the uploaded image file.                                    |
+| `is_high_value`  | BOOLEAN   | -      | Default False        | Flag for items requiring SID turnover.                              |
+| `date_reported`  | DATETIME  | -      | Not Null             | Timestamp when the report was created.                              |
+
+#### Table 3: CLAIMS
+
+Tracks ownership claims filed against found items.
+
+| Field Name          | Data Type | Length | Constraint           | Description                                                    |
+| :------------------ | :-------- | :----- | :------------------- | :------------------------------------------------------------- |
+| `claim_id`          | VARCHAR   | 36     | PK, Not Null         | Unique identifier for the claim.                               |
+| `item_id`           | VARCHAR   | 36     | FK (Items), Not Null | The found item being claimed.                                  |
+| `claimant_id`       | VARCHAR   | 36     | FK (Users), Not Null | The user asserting ownership.                                  |
+| `status`            | ENUM      | -      | Not Null             | 'Pending', 'Approved', 'Rejected', 'Completed'.                |
+| `proof_description` | TEXT      | -      | Not Null             | Text details proving ownership (e.g., "screensaver is a cat"). |
+| `proof_image_url`   | VARCHAR   | 255    | Nullable             | Optional image proof (e.g., receipt, old photo).               |
+| `date_filed`        | DATETIME  | -      | Not Null             | Timestamp of claim submission.                                 |
+
+#### Table 4: MESSAGES
+
+Stores secure, in-app communications between users.
+
+| Field Name    | Data Type | Length | Constraint           | Description                           |
+| :------------ | :-------- | :----- | :------------------- | :------------------------------------ |
+| `message_id`  | VARCHAR   | 36     | PK, Not Null         | Unique identifier for the message.    |
+| `item_id`     | VARCHAR   | 36     | FK (Items), Not Null | Context of the conversation.          |
+| `sender_id`   | VARCHAR   | 36     | FK (Users), Not Null | User sending the message.             |
+| `receiver_id` | VARCHAR   | 36     | FK (Users), Not Null | User receiving the message.           |
+| `content`     | TEXT      | -      | Not Null             | The message body (encrypted at rest). |
+| `timestamp`   | DATETIME  | -      | Not Null             | Time the message was sent.            |
+
+#### Table 5: TURNOVER_LOG
+
+Digital logbook for items surrendered to the Security and Investigation Division.
+
+| Field Name      | Data Type | Length | Constraint           | Description                                      |
+| :-------------- | :-------- | :----- | :------------------- | :----------------------------------------------- |
+| `log_id`        | VARCHAR   | 36     | PK, Not Null         | Unique identifier for the log entry.             |
+| `item_id`       | VARCHAR   | 36     | FK (Items), Not Null | The item being surrendered.                      |
+| `officer_id`    | VARCHAR   | 36     | FK (Users), Not Null | The SID officer processing the turnover.         |
+| `date_received` | DATETIME  | -      | Not Null             | When the item physically arrived at SID.         |
+| `date_released` | DATETIME  | -      | Nullable             | When the item was returned to owner or disposed. |
+| `remarks`       | TEXT      | -      | Nullable             | Officer notes on condition or verification.      |
+
+#### Table 6: NOTIFICATIONS
+
+Stores system alerts for users.
+
+| Field Name        | Data Type | Length | Constraint           | Description                                    |
+| :---------------- | :-------- | :----- | :------------------- | :--------------------------------------------- |
+| `notification_id` | VARCHAR   | 36     | PK, Not Null         | Unique identifier.                             |
+| `user_id`         | VARCHAR   | 36     | FK (Users), Not Null | Recipient of the notification.                 |
+| `content`         | VARCHAR   | 255    | Not Null             | Display text of the alert.                     |
+| `type`            | VARCHAR   | 50     | Not Null             | e.g., 'Claim_Update', 'New_Message', 'System'. |
+| `is_read`         | BOOLEAN   | -      | Default False        | Read status.                                   |
+| `timestamp`       | DATETIME  | -      | Not Null             | Time created.                                  |
+
+## **6.2 Class Diagram** {#class-diagram}
+
+The Class Diagram represents the object-oriented structure of ClaimIT, showing the main classes, their attributes, methods, and relationships.
+
+_\[Placeholder for Class Diagram Image\]_
+
+**Key Classes:**
+
+- **User**: Base class with authentication and profile management
+- **Item**: Represents both lost and found items with status management
+- **Claim**: Manages the claim lifecycle and verification
+- **Message**: Handles in-app communication between users
+- **Notification**: System-generated alerts and push notifications
+- **TurnoverLog**: Tracks SID administrative operations
+
+## **6.3 Context Diagram** {#context-diagram}
+
+The Context Diagram provides a high-level view of ClaimIT's external interfaces and data flows with external entities.
+
+_\[Placeholder for Context Diagram Image\]_
+
+**External Entities:**
+
+- **University SSO (SAML IDP)**: Provides authentication services
+- **Firebase Cloud Messaging**: Handles push notifications
+- **Email Service (SMTP)**: Sends transactional emails
+- **Cloud Storage**: Stores uploaded images
+
+## **6.4 Component Diagram** {#component-diagram}
+
+The Component Diagram shows the modular architecture of ClaimIT and how different software components interact.
+
+_\[Placeholder for Component Diagram Image\]_
+
+**Main Components:**
+
+- **Frontend (React.js PWA)**: User interface layer
+- **Backend Services**: API endpoints and business logic
+- **Database Layer (Firebase Firestore)**: Data persistence
+- **Authentication Module**: SSO integration
+- **Notification Service**: Push and email notifications
+
+## **6.5 Package Diagram** {#package-diagram}
+
+The Package Diagram organizes the ClaimIT codebase into logical groupings showing dependencies between packages.
+
+_\[Placeholder for Package Diagram Image\]_
+
+**Main Packages:**
+
+- `ui/` - User interface components
+- `services/` - Business logic and API calls
+- `models/` - Data models and entities
+- `utils/` - Helper functions and utilities
+- `config/` - Configuration and environment settings
+
+---
+
+**End of Section 6**
+
+_This section has defined the data architecture of ClaimIT through comprehensive ERD and Data Dictionary documentation. The next section (Section 7) will describe the overall system specifications and functional capabilities._
+
+# **7. The System** {#the-system}
+
+This section provides the overall specifications and functional requirements of the ClaimIT software.
+
+## **7.1 System Overview** {#system-overview}
+
+ClaimIT is a comprehensive Lost and Found Information System designed for MSU-IIT campus, built as a Progressive Web Application (PWA).
+
+### **7.1.1 System Features**
 
-1. ## **Use Case Diagram**
+1. #### **Secure SAML SSO Authentication**
+2. #### **Dual-Stream Reporting Engine**
+3. #### **Intelligent Search and Filtering**
+4. #### **Secure In-App Messaging**
+5. #### **Digital Proof of Ownership**
+6. #### **QR Code Identity Verification**
+7. #### **SID Admin Dashboard**
+8. #### **Smart Notification System**
+9. #### **Privacy-First Image Handling**
+10. #### **Digital Logbook & Audit Trail**
+11. #### **Interactive Map Location Pinning**
+12. #### **User Reputation & Leaderboard**
+13. #### **Automated Expiry & Archiving**
+14. #### **Responsive PWA Interface**
+15. #### **Role-Based Access Control**
 
-_\<Provide an introduction.\>_  
-_\<Place here the use case diagram. Have a brief explanation below it.\>_
+### **7.1.2 System Functions**
 
-1. ## **Use Case Description**
+Functions 1-20 cover Login, Dashboard, Reporting, Searching, Claiming, Messaging, QR Verification, Admin Operations, Notifications, Profile Management, and Logout.
 
-_\<Write an introduction then place here the use case descriptions.\>_
+---
 
-|           Use Case ID: | Enter a unique numeric identifier for the Use Case. e.g. UC-1.2.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| ---------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     **Use Case Name:** | Enter a short name for the Use Case using an active verb phrase. e.g. Withdraw Cash                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|            **Actors:** | \[An actor is a person or other entity external to the software system being specified who interacts with the system and performs use cases to accomplish tasks. Different actors often correspond to different user classes, or roles, identified from the customer community that will use the product. Name the actor that will be initiating this use case (primary) and any other actors who will participate in completing the use case (secondary).\]                                                                                                                                                                                                                                                                                                                                                 |
-|       **Description:** | \[Provide a brief description of the reason for and outcome of this use case.\]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|           **Trigger:** | \[Identify the event that initiates the use case. This could be an external business event or system event that causes the use case to begin, or it could be the first step in the normal flow.\]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|     **Preconditions:** | \[List any activities that must take place, or any conditions that must be true, before the use case can be started. Number each pre-condition. e.g. Customer has active deposit account with ATM privileges Customer has an activated ATM card.\]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|       **Normal Flow:** | \[Provide a detailed description of the user actions and system responses that will take place during execution of the use case under **normal, expected** conditions. This dialog sequence will ultimately lead to accomplishing the goal stated in the use case name and description. Example: Customer inserts ATM card Customer enters PIN System prompts customer to enter language performance English or Spanish System validates if customer is in the bank network System prompts user to select transaction type Customer selects Withdrawal From Checking System prompts user to enter withdrawal amount … System ejects ATM card\]                                                                                                                                                               |
-| **Alternative Flows:** | \[Document **legitimate** branches from the main flow to handle special conditions (also known as extensions). For each alternative flow reference the branching step number of the normal flow and the condition which must be true in order for this extension to be executed. e.g. Alternative flows in the _Withdraw Cash_ transaction: 4a. In step 4 of the normal flow, if the customer is not in the bank network System will prompt customer to accept network fee Customer accepts Use Case resumes on step 5 4b. In step 4 of the normal flow, if the customer is not in the bank network System will prompt customer to accept network fee Customer declines Transaction is terminated Use Case resumes on step 9 of normal flow Note: Insert a new row for each distinctive alternative flow. \] |
-|        **Exceptions:** | \[Describe any anticipated **error conditions** that could occur during execution of the use case, and define how the system is to respond to those conditions. e.g. Exceptions to the Withdraw Case transaction 2a. In step 2 of the normal flow, if the customer enters and invalid PIN Transaction is disapproved Message to customer to re-enter PIN Customer enters correct PIN Use Case resumes on step 3 of normal flow\]                                                                                                                                                                                                                                                                                                                                                                             |
-|    **Postconditions:** | \[Describe the state of the system at the conclusion of the use case execution. Should include both _minimal guarantees_ (what must happen even if the actor’s goal is not achieved) and the _success guarantees_ (what happens when the actor’s goal is achieved. Number each post-condition. e.g. Customer receives cash Customer account balance is reduced by the amount of the withdrawal and transaction fees\]                                                                                                                                                                                                                                                                                                                                                                                        |
+**End of Section 7**
 
-|           Use Case ID: | And so on… |
-| ---------------------: | :--------- |
-|     **Use Case Name:** |            |
-|            **Actors:** |            |
-|       **Description:** |            |
-|           **Trigger:** |            |
-|     **Preconditions:** |            |
-|       **Normal Flow:** |            |
-| **Alternative Flows:** |            |
-|        **Exceptions:** |            |
-|    **Postconditions:** |            |
+---
 
-3. ## **Sequence Diagram** {#sequence-diagram}
+# **8. Non-Functional Requirements** {#other-nonfunctional-requirements}
 
-_\<Write an introduction here then place the sequence diagrams. Have a brief explanation of the diagram below it.\>_
+## **8.1 Performance Requirements**
 
-3. Example of a figure label. (_figure label_)
+The ClaimIT system is designed to serve the entire MSU-IIT community, estimated at approximately 12,000+ students, faculty, and staff. The system must meet the following performance benchmarks:
 
-_\<Narrative for the diagram placed above.\>_
+1. **Response Time:**
 
-4. Example of a figure label. (_figure label_)
+   - The system shall load the dashboard and main feed within **3 seconds** on a standard 4G mobile connection.
+   - Search queries (filtering by category, date, or keyword) shall return results within **2 seconds**.
+   - Image uploads (compressed client-side) shall complete within **5 seconds** for files under 5MB.
 
-_\<And so on….\>_
+2. **Throughput & Concurrency:**
 
-4. ## **Collaboration Diagram** {#collaboration-diagram}
+   - The system shall support at least **500 concurrent users** during peak hours (e.g., after major campus events or exams).
+   - The backend shall be capable of handling **1,000+ new item reports per day** without performance degradation.
 
-_\<Write an introduction here then place the collaboration diagrams. Have a brief explanation of the diagram below it.\>_
+3. **Resource Usage:**
+   - The Progressive Web App (PWA) shall utilize service workers to cache static assets, ensuring the application shell loads instantly on repeat visits.
+   - Client-side storage usage (IndexedDB/LocalStorage) shall not exceed **50MB** to respect user device limits.
 
-5. Example of a figure label. (_figure label_)
+---
 
-_\<Narrative for the diagram above.\>_
+## **8.2 Security Requirements**
 
-6. Example of a figure label. (_figure label_)
+Given the handling of personal property data and integration with university credentials, security is paramount.
 
-7. # **Data Models** {#data-models}
+1. **Authentication & Authorization:**
 
-_\<Intro here. In this section place the ERD and class diagram. Provide a short description of each section and write a short narrative explaining the diagram after each of them.\>_
+   - Access to the system shall be strictly controlled via **SAML Single Sign-On (SSO)** integrated with the MSU-IIT Active Directory (My.IIT).
+   - Session timeouts shall be enforced after **30 minutes of inactivity** to prevent unauthorized access on shared devices.
+   - **Role-Based Access Control (RBAC)** shall strictly enforce permissions:
+     - _Standard Users_ can only edit/delete their own reports.
+     - _SID Admins_ have global privileges to manage all reports and view audit logs.
 
-1. ## **Entity-Relationship Diagram** {#entity-relationship-diagram}
+2. **Data Privacy (RA 10173 Compliance):**
 
-_\<Write an introduction here then place the ER diagram. Write a short narrative explaining the diagram.\>_
+   - **Personal Information Masking:** Users' mobile numbers and email addresses shall never be displayed publicly. All communication must occur via the internal chat system.
+   - **Image Privacy:** The system shall automatically strip EXIF metadata (location, device info) from uploaded photos before storage.
+   - **Content Moderation:** Uploaded images must be screened (automated or manual) to ensure no sensitive personal data (e.g., ID numbers, credit card details) is visible.
 
-7. Example of a figure label. (_figure label_)
+3. **Data Integrity & Encryption:**
+   - All data in transit must be encrypted using **TLS 1.2/1.3 (HTTPS)**.
+   - Sensitive data at rest (e.g., user logs, chat history) shall be encrypted in the database.
+   - The system shall prevent SQL Injection, Cross-Site Scripting (XSS), and Cross-Site Request Forgery (CSRF) attacks through standard framework protections (e.g., React sanitization, parameterized queries).
 
-   2. ## **Class Diagram** {#class-diagram}
+---
 
-_\<Write an introduction here then place the class diagram. Write a short narrative explaining the diagram.\>_
+## **8.3 Reliability and Availability Requirements**
 
-8. Example of a figure label. (_figure label_)
+1. **Availability:**
 
-   3. ## **Context Diagram** {#context-diagram}
+   - The system shall be available **24/7**, with a targeted uptime of **99.9%** during the academic semester.
+   - Scheduled maintenance shall be performed during off-peak hours (12:00 AM - 4:00 AM) with prior notification.
 
-_\<Write an introduction here then place the context diagram. Write a short narrative explaining the diagram.\>_
+2. **Fault Tolerance:**
 
-9. Example of a figure label. (_figure label_)
+   - In the event of a network disconnection, the PWA shall provide an **Offline Mode** allowing users to view previously loaded data and draft reports (to be synced when connectivity is restored).
+   - The system shall gracefully handle database connection failures by displaying user-friendly error messages rather than raw stack traces.
 
-   4. ## **Component Diagram** {#component-diagram}
+3. **Data Backup:**
+   - Automated incremental backups of the database shall be performed **daily**.
+   - Full system backups shall be performed **weekly** and stored in a separate, secure location (e.g., cloud storage bucket with versioning).
 
-_\<Write an introduction here then place the component diagram. Write a short narrative explaining the diagram.\>_
+---
 
-10. Example of a figure label. (_figure label_)
+## **8.4 Usability Requirements**
 
-    5. ## **Package Diagram** {#package-diagram}
+1. **User Interface (UI) Design:**
 
-_\<Write an introduction here then place the package diagram. Write a short narrative below explaining the diagram.\>_
+   - The interface shall follow **Material Design** principles to ensure familiarity and ease of use.
+   - The design must be **Responsive**, adapting seamlessly to mobile phones (portrait/landscape), tablets, and desktop monitors.
 
-11. Example of a figure label. (_figure label_)
+2. **Accessibility:**
 
-12. # **The System** {#the-system}
+   - The system shall aim for **WCAG 2.1 AA compliance**, ensuring contrast ratios and screen reader compatibility for users with visual impairments.
+   - Touch targets (buttons, icons) on mobile views shall be at least **44x44 pixels** to accommodate finger tapping.
 
-_\<Intro Here_  
-_This section gives the overall specifications and functional requirements of the software to be developed_.\>
+3. **Learnability:**
+   - First-time users shall be guided by a brief **onboarding tutorial** explaining the "Lost" vs. "Found" reporting process.
+   - Error messages shall be descriptive and offer corrective actions (e.g., "Image file too large. Please upload a file smaller than 5MB" instead of "Error 413").
 
-1. ## **System Overview** {#system-overview}
+---
 
-_\<Provide an overview of the section here. This section gives an overall view of the main features and capabilities of the software.\>_
+## **8.5 Software Quality Attributes**
 
-### **System Features**
+1. **Maintainability:**
 
-_\<Intro here\>_  
-_\<Remember the difference between system feature and function. Place here the main features of the system then describe the functions in the next section. Example: Manage Users, Manage Registration, etc.\>_
+   - The codebase shall follow a **modular component architecture** (React Components) to facilitate easy updates and debugging.
+   - Code shall be documented using standard commenting practices (e.g., JSDoc).
 
-1. #### **_System Feature 1_**
+2. **Portability:**
+   - As a PWA, the system shall be platform-independent, functioning correctly on **Chrome, Firefox, Safari, and Edge** browsers across Windows, macOS, Android, and iOS.
 
-_\<Don’t really say “System Feature 1.” State the feature name in just a few words.\>_  
-_\<Provide a description of the feature.\>_
+---
 
-2. #### **_System Feature 2_**
+**End of Section 8**
 
-_\<Don’t really say “System Feature 2.” State the feature name in just a few words.\>_  
-_\<Provide a description of the feature.\>_
+# **9. Results and Discussion** {#results-and-discussion}
 
-3. #### **_System Feature 3 (and so on)_**
+_Note: This section is a placeholder to be completed after the system prototype has been built, deployed, and tested by users._
 
-_\<Don’t really say “System Feature 3.” State the feature name in just a few words.\>_  
-_\<Provide a description of the feature.\>_
+## **9.1 User Acceptance Testing (UAT) Results**
 
-2. ### **System Functions**
+[To be inserted: Summary of UAT sessions with students and SID staff. Include metrics such as task completion rates, error rates, and System Usability Scale (SUS) scores.]
 
-_\<Provide an overview here. This section provides a listing of all the functions that must be performed or delivered by the system, and a description of each. Include screen designs to help visualize the function being discussed. Usually, the functions are based on the menu and toolbar options. Be detailed in this section.\>_
+## **9.2 Performance Benchmarking**
 
-1. #### **_System Function 1_**
+[To be inserted: Technical performance data compared against requirements defined in Section 8.1. Include load testing results, average page load times, and database query speeds.]
 
-   _\< Provide a description of the function.\>_
+## **9.3 User Feedback Summary**
 
-   _\<Screen Designs/Screen Shots of the function\>_
+[To be inserted: Qualitative feedback from beta testers. Highlight common themes, positive reception, and reported pain points.]
 
-   2. #### **_System Function 2_**
+## **9.4 Objective Achievement Analysis**
 
-   _\< Provide a description of the function.\>_
+[To be inserted: A comparative analysis of the project outcomes against the specific objectives defined in Section 2.3. Did the system achieve the targeted 20-30% recovery rate improvement?]
 
-   _\<Screen Designs/Screen Shots of the function\>_
+---
 
-   3. #### **_System Function 3 (and so on)_**
+**End of Section 9**
 
-   _\<Provide a description of the function.\>_
+# **10. Summary and Conclusion** {#summary-and-conclusion}
 
-   _\<Screen Designs/Screen Shots of the function\>_
+_Note: This section is a placeholder to be completed upon final project delivery._
 
-2. # **Other Nonfunctional Requirements** {#other-nonfunctional-requirements}
+## **10.1 Project Summary**
 
-   1. ## **Performance Requirements** {#performance-requirements}
+[To be inserted: A concise overview of the entire project lifecycle, from problem identification to solution deployment.]
 
-_\<If there are performance requirements for the product under various circumstances, state them here and explain their rationale, to help the developers understand the intent and make suitable design choices. Specify the timing relationships for real time systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional requirements or features.\>_
+## **10.2 Achievement of Objectives**
 
-2. ## **Safety Requirements** {#safety-requirements}
+[To be inserted: A final assessment of how each specific objective was met, partially met, or not met, with justifications.]
 
-_\<Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.\>_
+## **10.3 Lessons Learned**
 
-3. ## **Security Requirements** {#security-requirements}
+[To be inserted: Key insights gained during the development process, including technical challenges overcome and team management experiences.]
 
-_\<Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created by the product. Define any user identity authentication requirements. Refer to any external policies or regulations containing security issues that affect the product. Define any security or privacy certifications that must be satisfied.\>_
+## **10.4 Conclusion**
 
-4. ## **Software Quality Attributes** {#software-quality-attributes}
+[To be inserted: Final concluding remarks on the impact of the ClaimIT system on the MSU-IIT community.]
 
-_\<Specify any additional quality characteristics for the product that will be important to either the customers or the developers. Some to consider are: adaptability, availability, correctness, flexibility, interoperability, maintainability, portability, reliability, reusability, robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the relative preferences for various attributes, such as ease of use over ease of learning.\>_
+---
 
-9. # **Results and Discussion** {#results-and-discussion}
+**End of Section 10**
 
-\<_This section provides the results and discussion. After you have done testing your software, present the results here and discuss its interpretation. Provide graphical representation of the results to support your discussion.\>_
+# **11. Recommendations** {#recommendations}
 
-10. # **Summary and Conclusion** {#summary-and-conclusion}
+_Note: This section is a placeholder for future roadmap items._
 
-\<_This section gives an assessment of what happened in this project. It presents **explanations and justifications** on **how the objectives** of the project **were met**, to what extent and why some objectives were not met.\>_
+## **11.1 Production Deployment Recommendations**
 
-11. # **Recommendations** {#recommendations}
+[To be inserted: Steps required to move from the Firebase prototype to the ICTC-recommended SQL/On-premise production environment.]
 
-**Appendix A: Working Bibliography**
+## **11.2 Feature Enhancements**
 
-_\<List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location. Please use APA format. \>_
+[To be inserted: Suggested features for version 2.0, such as AI-based image matching, mobile app wrappers, or integration with smart campus infrastructure.]
 
-_\<Working Bibliography._ List all references – APA7 citation reference\>
+## **11.3 Maintenance and Support**
 
-\<DON’T FORGET TO UPDATE THE TABLE OF CONTENTS\>
+[To be inserted: Recommended support structure, including role assignments for SID and ICTC staff for long-term system maintenance.]
 
-**Appendix B: Interview Results and Documentation**
+---
 
-_\<Place interview questions and per respondent’s transcript. Include documentation – pictures during the interview\>_
+**End of Section 11**
 
-**Appendix C: Work Breakdown Structure**
+---
 
-_\<Place complete WBS, align main phases using prototyping method\>_
+# **Appendix A: Working Bibliography**
 
-**Appendix D: Glossary**
+1. **IEEE Std 830-1998**, _IEEE Recommended Practice for Software Requirements Specifications_.
+2. **Republic Act No. 10173**, _Data Privacy Act of 2012_, Republic of the Philippines.
+3. **MSU-IIT Student Handbook**, _provisions on Lost and Found procedures_.
+4. **Google Firebase Documentation**, *https://firebase.google.com/docs*.
+5. **React.js Documentation**, *https://reactjs.org/docs/getting-started.html*.
+6. **Material Design Guidelines**, *https://m3.material.io/*.
 
-_\<Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.\>_
+---
+
+# **Appendix B: Interview Results and Documentation**
+
+This appendix contains the transcripts of interviews conducted with key stakeholders to gather requirements for the ClaimIT system.
+
+## B.1 Interview with Information and Communication Technology Center (ICTC)
+
+**Subject:** System Integration, Security, and Infrastructure Standards
+**Date:** [Insert Date]
+**Interviewer:** [Insert Name]
+**Respondent:** ICTC Representative
+
+### Part 1: Integration & Authentication
+
+**Q1: What is the university's primary user authentication system? Is there a standard procedure or API for integrating new applications with it?**
+**ICTC:** We are using the SAML protocol for SSO, and behind it we use Active Directory with LDAP. I think it's better to make it web-based rather than a mobile app, because regular users won't use this system often. The only part that should be mobile-accessible is the admin side. It's better to make it web-based because you can use SSO directly. On the web, the session state lets the system know you're still the same user until you log out.
+
+**Q2: Are there any other existing campus systems that you would recommend this app integrate with?**
+**ICTC:** One system I would recommend integrating with your app is the notification system. This would be useful for the adminfor example, to notify them whenever there is a claimant for an item that has been posted.
+
+### Part 2: Security & Data Privacy
+
+**Q3: What are the university's specific data privacy policies we must adhere to?**
+**ICTC:** Regarding the legal terms, you can find the policy on the institute's website. From a technical privacy perspective, you might hide the name of the claimant and the item from the admin. A best practice in IT is to encrypt sensitive information in the database. For example, you could encrypt student ID numbers or details of claimed items.
+
+**Q4: What are the standard requirements for data encryption?**
+**ICTC:** In the development environment, it's best to use dummy data. Regarding encryption, you don't need to encrypt names, since they are already accessible in the system. The data that should be encrypted includes ID numbers, passwords, and tokens.
+
+**Q5: What are your security requirements for an administrative portal?**
+**ICTC:** We didn't implement 2FA because we're not fully established and currently rely on SMS blasts. My suggestion is to continue using standard login through SAML for now.
+
+**Q6: What are the university's policies regarding user-uploaded content?**
+**ICTC:** Regarding virus scanning, modern browsers already have built-in protections. The main requirement is to control what file types can be uploadedfor example, only allowing JPEGs. Uploaded files should be stored on a separate, containerized server. The system should enforce a file size limit to prevent denial-of-service issues.
+
+### Part 3: Infrastructure & Performance
+
+**Q7: What are your primary concerns regarding system scalability and performance?**
+**ICTC:** The number of students shouldn't be a problem for your system because it doesn't require high availability. Unlike our MICA system, your system isn't expected to handle such high traffic.
+
+**Q8: Can you describe the campus network environment?**
+**ICTC:** Our campus has good Wi-Fi coverage. But in cases where the connection becomes slow, it's helpful to implement a syncing method. I also recommend using a database instead of an external integration like Google Firebase. Firebase works well for public apps, but for an app used only inside MSU-IIT, a database is more appropriate.
+
+**Q9: What are the university's standard procedures for data backup?**
+**ICTC:** Our Database Administrator handles rotating backups. As the developer, you don't need to focus too much on that area, because it's managed at the server and database level by the admin.
+
+**Q10: Are there any specific mobile device management policies?**
+**ICTC:** Since this will be a web app, you don't need to worry much about mobile device management policies. Once you finish developing the app, you will pass it to ICTC through a GitHub repository.
+
+---
+
+## B.2 Interview with Security and Investigation Division (SID)
+
+**Subject:** Current Lost and Found Procedures and Requirements
+**Date:** [Insert Date]
+**Interviewer:** [Insert Name]
+**Respondent:** SID Officer
+
+### Part 1: Understanding the Current Process
+
+**Q1: Could you walk me through the step-by-step process of turnover and claiming?**
+**SID:** If someone finds an item and turns it over, we record it. We get the name of the finder, the item, and if it is a wallet, we list the things inside. For claiming, we ask them about the item (color, contents, when/where lost). If answers match, we ask for ID, record it in the logbook, and get their signature.
+
+**Q2: How long does the inquiry process usually take?**
+**SID:** If the claimant or the finder is already here, the maximum processing time is about 2 minutes because it already has a record.
+
+**Q3: How do you handle communication between shifts?**
+**SID:** For incoming personnel, we turn over the logbook and tell them the items turned over during the schedule. We accommodate claims from 7am to 9pm, Monday to Friday.
+
+### Part 2: Identifying Pain Points & Challenges
+
+**Q4: What are the biggest challenges with the logbook system?**
+**SID:** So far, we haven't encountered any challenges in recording them, since it is easy to do.
+
+**Q5: Do you think it is ideal to post an image when reporting a found item?**
+**SID:** It is okay to take a photo of the item itself. However, for a wallet, we should not take a picture of the contents because it is sensitive information. We only take a picture of the wallet itself.
+
+**Q6: How much time is dedicated to managing lost and found?**
+**SID:** During big events (gym, symposiums, concerts), many people come here. During those times, we spend most of our time handling lost and found matters. On normal days, only a few people come.
+
+**Q7: What issues do you encounter with item verification?**
+**SID:** There are cases of people being dishonest. Some try to claim items that are not theirs. We ask carefully and explain to them if the answers don't match.
+
+**Q8: What is the policy for unclaimed items?**
+**SID:** Unclaimed items remain for one year. Then we extend for two weeks and display them. If still unclaimed, we donate them to the Knowledge and Technology Transfer Office (KTTO) for calamity victims.
+
+### Part 3: Desired Features & Ideal Solution
+
+**Q9: Is it possible for students to keep the found item and just post it on the app?**
+**SID:** For us, we ask students to turn it over, but we can't force them. If they keep the item and post it in the app, it won't be a problem for us. It is even okay if they allow the finder to handle the claim; this could reduce our workload.
+
+**Q10: How would an automated notification system impact your workload?**
+**SID:** It will be a big help. If the user is notified that their item matches, they will be able to come to our office to claim it. This app will also help because sometimes students are shy to come to the office.
+
+**Q11: Is it okay to display the phone number/ID number of the user?**
+**SID:** Maybe we should not include that. It's not really necessary, because our number should only be known to people we know.
+
+---
+
+# **Appendix C: Work Breakdown Structure (WBS)**
+
+The following Work Breakdown Structure details the specific tasks required to complete the ClaimIT project, organized by the phases defined in the Gantt Chart (Section 2.8).
+
+## 1.0 Planning Phase
+
+- 1.1 Project Initiation
+  - 1.1.1 Define project scope and objectives
+  - 1.1.2 Identify stakeholders (SID, ICTC, Students)
+  - 1.1.3 Form development team
+- 1.2 Requirement Gathering
+  - 1.2.1 Conduct interview with SID
+  - 1.2.2 Conduct interview with ICTC
+  - 1.2.3 Analyze existing manual processes
+- 1.3 Documentation
+  - 1.3.1 Draft Software Requirements Specification (SRS)
+  - 1.3.2 Review SRS with advisor
+  - 1.3.3 Finalize SRS
+
+## 2.0 Analysis & Design Phase
+
+- 2.1 System Analysis
+  - 2.1.1 Define Use Cases
+  - 2.1.2 Create Sequence Diagrams
+  - 2.1.3 Create Activity Diagrams
+- 2.2 Database Design
+  - 2.2.1 Design Entity Relationship Diagram (ERD)
+  - 2.2.2 Define Data Dictionary
+  - 2.2.3 Setup Firebase Firestore schema (Prototype)
+- 2.3 UI/UX Design
+  - 2.3.1 Create Wireframes (Low-fidelity)
+  - 2.3.2 Create High-fidelity Mockups (Figma)
+  - 2.3.3 Design PWA responsive layouts
+
+## 3.0 Development Phase
+
+- 3.1 Environment Setup
+  - 3.1.1 Initialize React project
+  - 3.1.2 Configure Firebase project
+  - 3.1.3 Setup GitHub repository
+- 3.2 Frontend Development
+  - 3.2.1 Develop Authentication Module (Login/Register)
+  - 3.2.2 Develop Dashboard & Feed
+  - 3.2.3 Develop Reporting Forms (Lost/Found)
+  - 3.2.4 Develop Search & Filter components
+  - 3.2.5 Develop User Profile & Settings
+- 3.3 Backend Integration
+  - 3.3.1 Implement Firebase Auth
+  - 3.3.2 Implement CRUD operations for Items
+  - 3.3.3 Implement Image Upload (Storage)
+  - 3.3.4 Implement Real-time Messaging
+- 3.4 Admin Module Development
+  - 3.4.1 Develop SID Dashboard
+  - 3.4.2 Develop Turnover Logbook features
+  - 3.4.3 Develop Reporting/Analytics view
+
+## 4.0 Testing Phase
+
+- 4.1 Unit Testing
+  - 4.1.1 Test individual components
+  - 4.1.2 Test API integrations
+- 4.2 Integration Testing
+  - 4.2.1 Test end-to-end flows (Report -> Claim -> Handover)
+  - 4.2.2 Test PWA offline capabilities
+- 4.3 User Acceptance Testing (UAT)
+  - 4.3.1 Conduct testing sessions with students
+  - 4.3.2 Conduct testing sessions with SID staff
+  - 4.3.3 Collect and analyze feedback
+
+## 5.0 Deployment & Handover Phase
+
+- 5.1 Deployment
+  - 5.1.1 Deploy to hosting platform (e.g., Vercel/Netlify for prototype)
+  - 5.1.2 Perform final smoke tests
+- 5.2 Documentation & Training
+  - 5.2.1 Create User Manuals
+  - 5.2.2 Create Admin Guide
+  - 5.2.3 Conduct handover presentation to ICTC
+
+---
+
+# **Appendix D: Glossary**
+
+| Term                                             | Definition                                                                                                                                |
+| :----------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Active Directory (AD)**                        | A directory service developed by Microsoft for Windows domain networks, used by MSU-IIT for managing user identities.                     |
+| **Admin**                                        | A user with elevated privileges, specifically Security and Investigation Division (SID) officers in this context.                         |
+| **API (Application Programming Interface)**      | A set of rules that allows different software entities to communicate with each other.                                                    |
+| **Authentication**                               | The process of verifying the identity of a user or system.                                                                                |
+| **Authorization**                                | The process of determining what an authenticated user is allowed to do.                                                                   |
+| **Backend**                                      | The server-side of the application, responsible for database interactions, authentication, and business logic.                            |
+| **Claimant**                                     | A user who asserts ownership of a found item listed in the system.                                                                        |
+| **Cloud Hosting**                                | The use of remote servers hosted on the internet to store, manage, and process data (e.g., Google Firebase).                              |
+| **CRUD**                                         | Acronym for Create, Read, Update, and Delete; the four basic functions of persistent storage.                                             |
+| **CSS (Cascading Style Sheets)**                 | A style sheet language used for describing the presentation of a document written in HTML.                                                |
+| **Data Encryption**                              | The process of converting data into a code to prevent unauthorized access.                                                                |
+| **Data Privacy Act (RA 10173)**                  | A law in the Philippines that protects individual personal information in information and communications systems.                         |
+| **Database**                                     | A structured set of data held in a computer, especially one that is accessible in various ways.                                           |
+| **Deployment**                                   | The process of making the application available for use.                                                                                  |
+| **ERD (Entity Relationship Diagram)**            | A flowchart that illustrates how "entities" such as people, objects, or concepts relate to each other within a system.                    |
+| **Finder**                                       | A user who locates a lost item and reports it into the system.                                                                            |
+| **Firebase**                                     | A platform developed by Google for creating mobile and web applications, used here for the prototype backend.                             |
+| **Frontend**                                     | The client-side of the application that users interact with directly in their web browser.                                                |
+| **HTML (HyperText Markup Language)**             | The standard markup language for documents designed to be displayed in a web browser.                                                     |
+| **HTTPS (Hypertext Transfer Protocol Secure)**   | An extension of HTTP used for secure communication over a computer network.                                                               |
+| **ICTC**                                         | Information and Communication Technology Center; the department responsible for IT infrastructure at MSU-IIT.                             |
+| **JSON (JavaScript Object Notation)**            | A lightweight data-interchange format that is easy for humans to read and write and easy for machines to parse and generate.              |
+| **LDAP (Lightweight Directory Access Protocol)** | An open, vendor-neutral, industry standard application protocol for accessing and maintaining distributed directory information services. |
+| **Logbook**                                      | In this context, the official record kept by SID of all turned-over items; ClaimIT digitizes this record.                                 |
+| **Mockup**                                       | A scale or full-size model of a design or device, used for teaching, demonstration, design evaluation, promotion, and other purposes.     |
+| **P2P (Peer-to-Peer)**                           | A decentralized interaction model where users interact directly with each other (e.g., student-to-student handover).                      |
+| **Prototype**                                    | An early sample, model, or release of a product built to test a concept or process.                                                       |
+| **PWA (Progressive Web App)**                    | A type of application software delivered through the web, intended to work on any platform that uses a standards-compliant browser.       |
+| **QR Code (Quick Response Code)**                | A type of matrix barcode that can be read easily by a digital device, used here for verifying handovers.                                  |
+| **RBAC (Role-Based Access Control)**             | A method of restricting network access based on the roles of individual users within an enterprise.                                       |
+| **React.js**                                     | A free and open-source front-end JavaScript library for building user interfaces based on UI components.                                  |
+| **Responsive Design**                            | An approach to web design that makes web pages render well on a variety of devices and window or screen sizes.                            |
+| **SAML (Security Assertion Markup Language)**    | An open standard for exchanging authentication and authorization data between parties, used for SSO.                                      |
+| **SID**                                          | Security and Investigation Division; the department responsible for campus security and lost and found management.                        |
+| **SQL (Structured Query Language)**              | A domain-specific language used in programming and designed for managing data held in a relational database management system.            |
+| **SRS (Software Requirements Specification)**    | A document that describes what the software will do and how it will be expected to perform.                                               |
+| **SSO (Single Sign-On)**                         | An authentication scheme that allows a user to log in with a single ID and password to any of several related software systems.           |
+| **Turnover**                                     | The process of physically transferring a high-value found item from the Finder to the SID.                                                |
+| **UAT (User Acceptance Testing)**                | The final phase of the software testing process where actual software users test the software to make sure it can handle required tasks.  |
+| **UI (User Interface)**                          | The point of human-computer interaction and communication in a device.                                                                    |
+| **UX (User Experience)**                         | The overall experience of a person using a product such as a website or computer application.                                             |
+| **WBS (Work Breakdown Structure)**               | A key project deliverable that organizes the team's work into manageable sections.                                                        |
+| **Wireframe**                                    | A visual guide that represents the skeletal framework of a website or application.                                                        |
+
+---
+
+**End of Document**
